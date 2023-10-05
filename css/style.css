@@ -195,7 +195,8 @@ first div in the grid  and place it in the grid. */
  /* Step 8: Write the selector/rule property to style the .text-block class. */
  .text-block {
   text-align: center;
-  margin: auto;
+  justify-self: center;
+  align-self: center;
  }
 
 /* Add your media query here */
@@ -223,6 +224,6 @@ first div in the grid  and place it in the grid. */
  /* Step 13:Write the selector/rule property to update the .text-block class */
  .text-block{
   max-height: 250px;
-  overflow:auto;
+  overflow: auto;
  }
 }
